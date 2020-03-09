@@ -1,0 +1,25 @@
+Part 1
+The adjusted R squared indicates that 67% of the variation in mpg can be explained by the variables that I chose (vehicle length, vehicle weight, spoiler angle and ground clearance) which is relatively high.
+
+p-value of 2.277e-11 is significantly less than 0.05 which allows me to reject the Null Hypothesis. And since it has been rejected, the slope doesn't equal to 0.
+
+P-values of Vehicle Length and Ground Clearance are remarkably below 0.01 which makes those values significant predictors of the dependent variable. However, upon further investigation, I noticed that the coefficients for vehicle weight and spoiler angle are so low, they can be considered redundant and removed from the formula altogether. 
+
+In conclusion, I believe this model predicts mpg of MechaCars prototypes quite effectively. I plotted vehicle length and ground clearance separately. The correlation between mpg and vehicle length is very distinct, whereas for the ground clearance it's not as dramatic, but we can still see the trend going upwards. 
+
+Part 2
+
+The current manufacturing data meets the design specification. As the table shows, variance = 62.3 which is significantly less than 100. 
+In general, the data is not skewed, somewhat symmetrically distributed and mean and median are pretty close to each other. The coefficient of variation is small enough to conclude the data is not dispersed. 
+
+Part 3, t-test
+
+After running the t-test, I found out the p-value = 0.06. Which means, I failed to reject the Null Hypothesis and theres little to none statistical difference between two means. 
+
+Part 4, Study Design 
+
+The goal of the study would be to compare the prototype\'92s performance to other vehicles on the market. For this purpose, I would use  ANOVA, as I will be testing multiple samples. And chi-square test to determine categorical differences. 
+In ANOVA, I would compare the cost-fuel efficiency, mpg, cost of repair per year, reliability, and carbon emission. 
+The null hypothesis = there is no statistical difference between MechaCar and other vehicles means
+The alternative hypothesis = there is a difference. 
+For Chi-square, I would leave such questions as color, tire type, window tinting and salon design. 
